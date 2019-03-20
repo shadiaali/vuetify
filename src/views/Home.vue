@@ -1,19 +1,7 @@
 <template>
   <div class="home">
- homepage
+    <h1>This is the homepage</h1>
+   
+
   </div>
 </template>
-
-
-<script>
-import Navbar from '@/components/Navbar'
-export default {
-    name: 'App',
-    components: { Navbar },
-    data () {
-        return {
-            //
-        }
-    }
-}
-</script>
