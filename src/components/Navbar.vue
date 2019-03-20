@@ -4,7 +4,7 @@
     <v-toolbar flat app>
       <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">A</span>
-        <span>LogoHere</span>
+        <span class="test">LogoHere</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn flat color="grey">
