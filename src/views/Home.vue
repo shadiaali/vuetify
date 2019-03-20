@@ -1,17 +1,19 @@
 <template>
   <div class="home">
-    <h1>home page</h1>
-    <!--hide on medium and down screens-->
-   <v-btn class="hidden-md-and-down">click me</v-btn> 
-
-<v-btn class="pink hidden-md-and-up">click me</v-btn> 
+ homepage
   </div>
 </template>
 
-<script>
-  //import HelloWorld from '../components/HelloWorld'
 
-  export default {
-    
-  }
+<script>
+import Navbar from '@/components/Navbar'
+export default {
+    name: 'App',
+    components: { Navbar },
+    data () {
+        return {
+            //
+        }
+    }
+}
 </script>
