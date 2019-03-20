@@ -1,6 +1,8 @@
 <template>
+  <!--root vuetify component. all other components should be nested inside-->
   <v-app>
-    <v-toolbar app>
+    <!--a vuetify component. When loaded in the template, it renders some html. Can have props (like classes) added for functionality: eg, light/dark. Different props which have values can also be added. For instance, height, There is also a load of classes that can be added right from material design out of the box, such as colours e.g, indigo-->
+    <v-toolbar app dark height="50" class="red">
       <v-toolbar-title class="headline text-uppercase">
         <span>Vuetify</span>
         <span class="font-weight-light">MATERIAL DESIGN</span>
